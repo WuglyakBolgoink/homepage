@@ -17,4 +17,4 @@ notifications:
     on_success: change
 
 script: # the build step
-  - ng build --prod
+  - ng build --prod --progress=false
