@@ -4,15 +4,16 @@ node_js:
 branches:
   only:
   - master
-  - "/^greenkeeper/.*$/"
+  - /^greenkeeper-.*$/
+  - /^greenkeeper/.*$/
 cache: yarn
-before_script:
-- npm install -g --silent @angular/cli
 notifications:
   email:
-    on_failure: change
-    on_success: change
-before_script: greenkeeper-lockfile-update
+    on_success: always
+    on_failure: always
+before_script:
+- npm install -g --silent @angular/cli
+- greenkeeper-lockfile-update
 script:
 - ng build --prod --progress=false
 after_script:

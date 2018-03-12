@@ -2,6 +2,8 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/WuglyakBolgoink/homepage.svg)](https://greenkeeper.io/)
 
+[![Build Status](https://travis-ci.org/WuglyakBolgoink/homepage.svg?branch=master)](https://travis-ci.org/WuglyakBolgoink/homepage)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
 ## Development server
