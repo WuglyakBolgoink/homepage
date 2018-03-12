@@ -1,21 +1,29 @@
 language: node_js
 node_js:
-  - node # will use latest node
-
+- node
 branches:
   only:
-    - master
-    - /^greenkeeper/.*$/
-
+  - master
+  - "/^greenkeeper/.*$/"
 cache: yarn
-
-before_script: # commands to run before the build step
-  - npm install -g --silent @angular/cli
-
+before_script:
+- npm install -g --silent @angular/cli
 notifications:
-  email: # only receive email when the build status changes (someone broke the build!)
+  email:
     on_failure: change
     on_success: change
-
-script: # the build step
-  - ng build --prod --progress=false
+script:
+- ng build --prod --progress=false
+before_install:
+# we do extract the deploy_rsa in Travis /tmp folder to avoid deploying the decrypted key by any mean.
+- openssl aes-256-cbc -K $encrypted_1cf7eed8785d_key -iv $encrypted_1cf7eed8785d_iv
+  -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/deploy_rsa
+- ssh-add /tmp/deploy_rsa
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/dist eldero_travis@eldero.beget.tech:/
+  on:
+    branch: master
