@@ -1,0 +1,138 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2>What I do</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-6">
+      <div class="card text-center bg-light mb-3">
+        <img style="height:250px;" class="card-img"
+             [src]="'assets/toptal-blog-image-1518187252525-03f6db7b1c131066061024c236c7e3ff.png'" alt="Card image">
+
+        <div class="card-header">
+          Single Page Application
+        </div>
+        <div class="card-body">
+          <p class="card-text">JavaScript</p>
+          <p class="card-text">
+            <i class="fa fa-chevron-down"></i>
+          </p>
+          <p class="card-text">Angular 5+ / Typescript </p>
+        </div>
+        <div class="card-footer text-muted">
+          <a href="https://angular.io/" target="_blank" class="btn btn-primary btn-block">Go</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6">
+      <div class="card text-center bg-light mb-3">
+        <img style="height:250px;" class="card-img" [src]="'assets/maxresdefault.jpg'" alt="Card image">
+        <div class="card-header">
+          Hybrid App Development
+        </div>
+        <div class="card-body">
+          <p class="card-text">cordova</p>
+          <p class="card-text">
+            <i class="fa fa-chevron-down"></i>
+          </p>
+          <p class="card-text">android / iOS</p>
+        </div>
+        <div class="card-footer text-muted">
+          <a href="https://cordova.apache.org/" target="_blank" class="btn btn-primary btn-block">Go</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <h2>Cordova Plugins</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card text-center mb-3">
+        <div class="card-header">
+          cordova-plugin-ckopenimage
+        </div>
+        <div class="card-body">
+          <p class="card-text">plugin is intended to show a picture from an URL into a Photo Viewer with zoom
+            features.</p>
+
+          <div style="width:100%;height:300px">
+            <ngx-charts-bar-vertical
+              [scheme]="colorSchemeBar"
+              [results]="plugins['cordova-plugin-ckopenimage'].series"
+              [gradient]="gradient"
+              [xAxis]="showXAxis"
+              [yAxis]="showYAxis"
+              [legend]="showLegend"
+              [tooltipDisabled]="tooltipDisabled"
+              [showXAxisLabel]="showXAxisLabel"
+              [showYAxisLabel]="showYAxisLabel"
+              [xAxisLabel]="xAxisLabel"
+              [yAxisLabel]="yAxisLabel">
+            </ngx-charts-bar-vertical>
+          </div>
+
+        </div>
+        <div class="card-footer text-muted">
+          <a href="https://github.com/WuglyakBolgoink/CkOpenImage" class="btn btn-primary btn-block">
+            Go
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card text-center mb-3">
+        <div class="card-header">
+          cordova-plugin-iroot
+        </div>
+        <div class="card-body">
+          <p class="card-text">Cordova Jailbreak/Root Detection Plugin for Apache Cordova</p>
+          <br>
+          <div style="width:100%;height:300px">
+            <ngx-charts-bar-vertical
+              [scheme]="colorSchemeBar"
+              [results]="plugins['cordova-plugin-iroot'].series"
+              [gradient]="gradient"
+              [tooltipDisabled]="tooltipDisabled"
+              [xAxis]="showXAxis"
+              [yAxis]="showYAxis"
+              [legend]="showLegend"
+              [showXAxisLabel]="showXAxisLabel"
+              [showYAxisLabel]="showYAxisLabel"
+              [xAxisLabel]="xAxisLabel"
+              [yAxisLabel]="yAxisLabel">
+            </ngx-charts-bar-vertical>
+          </div>
+        </div>
+        <div class="card-footer text-muted">
+          <a href="https://github.com/WuglyakBolgoink/cordova-plugin-iroot" class="btn btn-primary btn-block">
+            Go
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-12 text-center">
+      <h2>My Skills</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <app-skills-svg></app-skills-svg>
+    </div>
+  </div>
+</div>

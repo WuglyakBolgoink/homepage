@@ -373,6 +373,14 @@ amqplib@^0.5.2:
     readable-stream "1.x >=1.1.9"
     safe-buffer "^5.0.1"
 
+angular-tslint-rules@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/angular-tslint-rules/-/angular-tslint-rules-1.2.1.tgz#782ead1ad088b556f90dee403d5e73627af6ba8b"
+
+angular2-lightbox@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/angular2-lightbox/-/angular2-lightbox-1.3.0.tgz#1dd722cad66ce03bb2b5c75ab6231738d4b80196"
+
 ansi-html@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/ansi-html/-/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
