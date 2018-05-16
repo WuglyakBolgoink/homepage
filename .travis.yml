@@ -12,7 +12,7 @@ notifications:
     on_success: always
     on_failure: always
 before_script:
-- npm install -g --silent @angular/cli
+- yarn global add @angular/cli
 - greenkeeper-lockfile-update
 script:
 - ng build --prod --progress=false
