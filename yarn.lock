@@ -697,7 +697,7 @@ angular-tslint-rules@^1.2.1:
   resolved "https://registry.yarnpkg.com/angular-tslint-rules/-/angular-tslint-rules-1.12.1.tgz#a21eb1848525fc8c5b4e4fe110f0b198504b2f23"
   integrity sha512-bcNwWoRd0/ePyfT02Id2E9nsU9Z/ONhlGYLCLmRgF1Pl5aQDYfnbioeDgvl8faRXAL1Xk+9a1PsgQ+22r5TrMw==
 
-angular2-lightbox@^1.3.0:
+angular2-lightbox@1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/angular2-lightbox/-/angular2-lightbox-1.4.0.tgz#f50dfcef20048ebfdaf3c4a699b005fce694df4f"
   integrity sha512-3kfV6bOKb01Fn75jVpnnX0nQKiqgZJ1EO8rcT/5ZsqzMNyMvcm/fvaOFA5ovZTALHEkqCJsZ6XqT2B91XrlB1g==
