@@ -47,10 +47,10 @@
               "src/assets"
             ],
             "styles": [
-              "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "../node_modules/font-awesome/css/font-awesome.css",
-              "../node_modules/angular2-lightbox/lightbox.css",
-              "styles.less"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/angular2-lightbox/lightbox.css",
+              "node_modules/font-awesome/less/font-awesome.less",
+              "src/styles.less"
             ],
             "scripts": [],
             "es5BrowserSupport": true
