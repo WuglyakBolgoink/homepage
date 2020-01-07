@@ -204,10 +204,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@ng-bootstrap/ng-bootstrap@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-4.1.0.tgz#84c542e7dbb1e03944c87a2615199edc39c3d6c7"
-  integrity sha512-7THBEgwDW9bs3R6JQ3glDXAxyihrUqM8p71Es2GpN21xLs2fcxUUcLO4ioRcWGGlR6QKwamzNVAHNUDB5IMY+Q==
+"@ng-bootstrap/ng-bootstrap@5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-5.1.5.tgz#862f82c0c51c02076538fd266141f45e4209e608"
+  integrity sha512-DpeKD2LOv2LFSzYOOiWd6qv52i7KS2VY9SQs4533OPspJKq7mKo6zZ3jgAV+tPP+Bit1+pF3hkVpfh+rFMCejA==
   dependencies:
     tslib "^1.9.0"
 
