@@ -23,21 +23,21 @@
     "@angular/platform-browser-dynamic": "7.2.8",
     "@angular/router": "7.2.8",
     "@ng-bootstrap/ng-bootstrap": "4.1.0",
-    "bootstrap": "^4.0.0",
-    "core-js": "^2.4.1",
-    "font-awesome": "^4.7.0",
-    "moment": "^2.21.0",
+    "bootstrap": "4.0.0",
+    "core-js": "2.4.1",
+    "font-awesome": "4.7.0",
+    "moment": "2.21.0",
     "rxjs": "6.4.0",
     "typescript": "3.2.4",
-    "zone.js": "^0.8.19"
+    "zone.js": "0.8.19"
   },
   "devDependencies": {
     "@angular/cli": "7.3.5",
     "@angular/compiler-cli": "7.2.8",
     "@angular/language-service": "7.2.8",
     "@types/node": "11.11.1",
-    "codelyzer": "^4.0.1",
-    "greenkeeper-lockfile": "^1.14.0",
+    "codelyzer": "4.0.1",
+    "greenkeeper-lockfile": "1.14.0",
     "ts-node": "8.0.3",
     "tslint": "5.13.1"
   }
