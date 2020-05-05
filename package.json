@@ -35,7 +35,7 @@
     "@angular/cli": "7.3.5",
     "@angular/compiler-cli": "7.2.8",
     "@angular/language-service": "7.2.8",
-    "@types/node": "13.9.1",
+    "@types/node": "13.13.5",
     "codelyzer": "4.0.1",
     "greenkeeper-lockfile": "1.14.0",
     "ts-node": "8.0.3",
